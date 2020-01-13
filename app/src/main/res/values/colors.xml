@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Letra">#6124DB</color>
+    <color name="background">#000000</color>
+    <color name="Titulos">#06EE0D</color>
+    <color name="toolbarColor">#262628</color>
+    <color name="SubTitulos">#1B0FC7</color>
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".detalles_activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarDetalles"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Details"
+        app:titleTextColor="@color/Titulos" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:text="Name:"
+        android:textColor="@color/SubTitulos"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewNameDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:paddingBottom="3dp"
+        android:textColor="@color/Letra"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:text="Model:"
+        android:textColor="@color/SubTitulos"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewModelDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:paddingBottom="3dp"
+        android:textColor="@color/Letra"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewClase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:text="Class:"
+        android:textColor="@color/SubTitulos"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:paddingBottom="3dp"
+        android:textColor="@color/Letra"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewCrewSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:text="Crew size:"
+        android:textColor="@color/SubTitulos"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewCrew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:paddingBottom="3dp"
+        android:textColor="@color/Letra"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewCapacity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:text="Capacity:"
+        android:textColor="@color/SubTitulos"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewCapacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:paddingBottom="3dp"
+        android:textColor="@color/Letra"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewSpeed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:text="Speed:"
+        android:textColor="@color/SubTitulos"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:paddingBottom="3dp"
+        android:textColor="@color/Letra"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewLenght2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:text="Lenght:"
+        android:textColor="@color/SubTitulos"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewLenght"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:paddingBottom="3dp"
+        android:textColor="@color/Letra"
+        android:textColorHighlight="@color/design_default_color_primary_dark"
+        android:textSize="30sp" />
+
+</LinearLayout>
